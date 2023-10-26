@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    android:weightSum="1"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+
+
+<RelativeLayout
+    android:layout_weight="0.5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+   >
+    <ImageView
+        android:layout_width="78dp"
+        android:layout_height="98dp"
+        android:id="@+id/imageview"
+        android:src="@drawable/new1"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/Register"
+        android:layout_toEndOf="@id/imageview">
+        <TextView
+            android:id="@+id/regNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Registration No:"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:id="@+id/regNumView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            tools:text="Registration No"
+            android:textColor="#8FBC8F"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            android:layout_toEndOf="@id/regNum"
+
+            />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/Register"
+        android:id="@+id/studentname"
+        android:layout_toEndOf="@id/imageview">
+        <TextView
+            android:id="@+id/nametextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Name :"
+            android:textColor="#FF0000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_toEndOf="@id/nametextview"
+            tools:text="Name "
+            android:layout_marginLeft="10dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/studentname"
+        android:id="@+id/studentclass"
+        android:layout_toEndOf="@id/imageview">
+        <TextView
+            android:id="@+id/classtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Class :"
+            android:textColor="#800080"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/classView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_toEndOf="@id/classtextview"
+            tools:text="Class :"
+            android:layout_marginLeft="10dp"
+
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/studentclass"
+        android:id="@+id/studentaddress"
+        android:layout_toEndOf="@id/imageview">
+        <TextView
+            android:id="@+id/addresstextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Address :"
+            android:textColor="#008000"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/addressView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            android:layout_toEndOf="@id/addresstextview"
+            tools:text="Address :"
+            android:layout_marginLeft="10dp"
+
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/studentaddress"
+        android:id="@+id/studentmobile"
+        android:layout_toEndOf="@id/imageview">
+        <TextView
+            android:id="@+id/mobiletextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Mobile :"
+            android:textColor="#FF8C00"
+            android:textStyle="italic"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:id="@+id/mobileView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/mobiletextview"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="italic"
+            tools:text="Mobile No:"
+            android:layout_marginLeft="10dp"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/studentmobile"
+        android:background="#DAD8D8"
+        android:layout_marginTop="5dp"/>
+
+
+</RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageViewOptions"
+        android:layout_width="64dp"
+        android:layout_height="114dp"
+        android:layout_weight="0.7"
+        android:gravity="center_vertical"
+        android:src="@drawable/dot"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:onClick="showPopup"/>
+
+</LinearLayout>

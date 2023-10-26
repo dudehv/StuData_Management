@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/delete_student"
+        android:title="DELETE STUDENT"/>
+
+    <item
+        android:id="@+id/update_student"
+        android:title="UPDATE STUDENT"/>
+
+    <item
+        android:id="@+id/home_page"
+        android:title="Homepage"
+       />
+
+</menu>

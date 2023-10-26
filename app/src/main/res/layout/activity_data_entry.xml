@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/aa"
+    tools:context=".dataEntry">
+    <TextView
+        android:id="@+id/studenttable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Table"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/registerpagetextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Registration No:- "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/registrationnotextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:fontFamily="sans-serif-condensed"
+            android:textColorHint="@color/white"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="22dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Name = "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/entername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:hint="Enter your name "
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/classtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Class = "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/classname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:hint="Enter your class name "
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Address = "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/editaddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:hint="Enter your address "
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Mobile = "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <EditText
+            android:id="@+id/editmobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:gravity="center"
+            android:hint="Enter your mobile number "
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:textSize="22dp"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+            android:text="Save "
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
